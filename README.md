@@ -27,11 +27,11 @@ $ ./run-local
 ```
 
 ## TODO
-- [] Add more informations in README
-- [] Add a small cache system
-- [] Heroku deployment as an example
-- [] Add tests
-- [] Improve the quality of code
+- [ ] Add more informations in README
+- [ ] Add a small cache system
+- [ ] Heroku deployment as an example
+- [ ] Add tests
+- [ ] Improve the quality of code
 
 ## License
 Apache 2.0
