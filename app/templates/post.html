@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article class="col-xs-12 col-sm-12 col-md-10 col-xl-8 center">
+    <div class="article-head">
+        <h1>{{ post.title }}</h1>
+        <h2 class="text-muted">{{ post.subtitle }}</h2>
+        <p class="author">{{ post.published }} · By {{ post.author }}</p>
+    </div>
+    {{ post.content|safe }}
+</article>    
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <ul class="posts">
+        {% for post in posts %}
+        <li>
+            {{ post.published }} ·
+            <a class="post-item" href="/{{ post.name }}">
+            {{ post.title }}
+            </a>
+        </li>
+        {% else %}
+        <li>There are not posts yet.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
