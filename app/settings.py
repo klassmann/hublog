@@ -22,7 +22,7 @@ GITHUB_ACCESSKEY = ''
 GITHUB_REPOSITORY = ''
 
 # Path for local posts in markdown
-BLOG_POSTS_DIR = os.path.realpath('local')
+BLOG_POSTS_DIR = os.path.realpath(os.getenv('HUBLOG_LOCAL_REPOSITORY'))
 
 # The extension used by markdown files, you can change to .markdown
 MARKDOWN_EXT = '.md'

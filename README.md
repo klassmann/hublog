@@ -28,9 +28,10 @@ $ ./run-local
 
 ## TODO
 - [ ] Add more informations in README
-- [ ] Add a small cache system
+- [ ] Add support for memcache
 - [ ] Heroku deployment as an example
-- [ ] Add tests
+- [ ] Docker Image
+- [ ] Add more tests
 - [ ] Improve the quality of code
 
 ## License

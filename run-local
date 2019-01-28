@@ -1,3 +1,8 @@
 #!/bin/bash
 
-LOCAL=True FLASK_APP=app/app.py FLASK_DEBUG=1 flask run
+export LOCAL=True
+export FLASK_APP=app
+export FLASK_ENV=development
+CURRENT_DIR=`pwd`
+export HUBLOG_LOCAL_REPOSITORY="$CURRENT_DIR/local"
+flask run
