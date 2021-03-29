@@ -9,7 +9,7 @@ Jinja2==2.10.1
 Markdown==2.6.11
 MarkupSafe==1.0
 PyGithub==1.43.2
-Pygments==2.2.0
+Pygments==2.7.4
 PyJWT==1.6.4
 requests==2.21.0
 urllib3==1.24.2
