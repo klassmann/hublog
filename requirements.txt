@@ -13,5 +13,5 @@ Pygments==2.7.4
 PyJWT==1.6.4
 requests==2.21.0
 urllib3==1.26.5
-Werkzeug==0.15.3
+Werkzeug==2.2.3
 wrapt==1.10.11
